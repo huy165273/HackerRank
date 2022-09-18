@@ -49,6 +49,7 @@ int main()
 {
     ofstream fout(getenv("OUTPUT_PATH"));
     cout<<"I love you";
+    cout<<"  ";
     string t_temp;
     getline(cin, t_temp);
 
