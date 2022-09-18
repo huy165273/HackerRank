@@ -5,14 +5,6 @@ using namespace std;
 string ltrim(const string &);
 string rtrim(const string &);
 vector<string> split(const string &);
-
-/*
- * Complete the 'larrysArray' function below.
- *
- * The function is expected to return a STRING.
- * The function accepts INTEGER_ARRAY A as parameter.
- */
-
 string larrysArray(vector<int> A)
 {
     for ( int i = 0; i < A.size(); i++)
@@ -63,10 +55,10 @@ int main()
     int t = stoi(ltrim(rtrim(t_temp)));
 
     for (int t_itr = 0; t_itr < t; t_itr++) {
-        string n_temp;
-        getline(cin, n_temp);
+        string ntemp;
+        getline(cin, ntemp);
 
-        int n = stoi(ltrim(rtrim(n_temp)));
+        int n = stoi(ltrim(rtrim(ntemp)));
 
         string A_temp_temp;
         getline(cin, A_temp_temp);
