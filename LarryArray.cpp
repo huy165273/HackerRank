@@ -48,7 +48,7 @@ string larrysArray(vector<int> A)
 int main()
 {
     ofstream fout(getenv("OUTPUT_PATH"));
-
+    cout<<"huy";
     string t_temp;
     getline(cin, t_temp);
 
